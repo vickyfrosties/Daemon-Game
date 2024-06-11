@@ -1,0 +1,189 @@
+:root{
+    --button-color: #fcee0a;
+    --button-main-color: #00F0FF;
+    --background-color: #151017;
+    --daemon-colors: #DFFF5E;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Jost", sans-serif;
+    box-sizing: border-box;
+    cursor: url(../cross.cur), pointer;
+
+}
+
+body {
+    cursor: url(../cross.cur), pointer;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--background-color);
+
+}
+
+header {
+    width: 100vw;
+    
+    nav {
+        width: 100vw;
+        height: 15%;
+        border: 1px solid var(--button-color);
+        display: flex;
+        }
+        
+        nav ul {
+            width: 70%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            text-decoration: none;
+        }
+        
+        ul {
+            margin: auto;
+        }
+        
+        li {
+            color: white;
+            font-size: 25px;
+            font-family: "Jost", sans-serif;
+            list-style: none;
+            text-decoration: none;
+            
+            a:visited {
+                color: white;
+                text-decoration: none;
+            }
+            
+            a {
+                text-decoration: none;
+                color: white;
+            }
+            
+        }
+    }
+    
+main {
+    width: 100vw;
+    height: 80%;
+     animation: fadeInAnimation ease 2.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.panel-container {
+    width: 100%;
+    height: 100%;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.panel {
+    padding: 1rem;
+    width: 40%;
+    height: 60%;
+    background-color: #2a2d3e25;
+    border: 3px solid #C2E524;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px 15px;
+    cursor: url(../cross.cur), pointer;
+
+
+    div {
+        padding: 1rem;
+        border: 2px solid #fcee0a;
+    }
+
+    div:hover {
+        opacity: 0.8;
+        border: 2px solid var(--button-main-color);
+    }
+}
+
+.first-section {
+    margin: auto;
+    display: flex;
+    width: 80%;
+}
+
+
+.explication-1 {
+    display: none;
+    margin-top: 3rem;
+    margin-right: 3rem;
+    justify-content: end;
+    padding: 1rem;
+    width: 27%;
+    height: 45%;
+    text-align: justify;
+    color: white;
+    border: 2px solid var(--button-main-color);
+    font-size: 15px;
+}
+
+.close-button {
+    color: white;
+}
+
+.close-button:hover {
+    color: var(--button-color);
+}
+
+.second-section {
+    display: block;
+    margin: auto;
+    width: 80%;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.combinaisontofind {
+    display: flex;
+    width: 20%;
+    border: 2px solid #717F39;
+    color: white;
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+    /* padding: 2rem; */
+    padding: 1rem;
+    gap: 10px 10px;
+
+        div {
+            padding: 0.5rem;
+            width: 30%;
+            height: 100%;
+            border: 2px solid var(--button-color);
+            text-align: center;
+        }
+}
+
+.combinaison-mystère {
+    gap: 10px 10px;
+    margin-top: 4rem;
+    width: 25%;
+
+}
+
+
+footer {
+    /* border: 2px solid var(--button-color); */
+    background-color: #fcee0a;
+}
