@@ -10,12 +10,11 @@
     padding: 0;
     font-family: "Jost", sans-serif;
     box-sizing: border-box;
-    cursor: url(../cross.cur), pointer;
 
 }
 
 body {
-    cursor: url(../cross.cur), pointer;
+    cursor: url(../images/Custom\ Cursor-02.svg), auto;
     width: 100vw;
     height: 100vh;
     background-color: var(--background-color);
@@ -43,6 +42,11 @@ header {
         ul {
             margin: auto;
         }
+
+        img {
+            cursor: url(../images/pointer\ custom-03.svg), auto;
+
+        }
         
         li {
             color: white;
@@ -59,7 +63,9 @@ header {
             a {
                 text-decoration: none;
                 color: white;
+                cursor: url(../images/pointer\ custom-03.svg), auto;
             }
+
             
         }
     }
@@ -103,7 +109,6 @@ main {
     justify-content: center;
     align-items: center;
     gap: 15px 15px;
-    cursor: url(../cross.cur), pointer;
 
 
     div {
@@ -114,6 +119,8 @@ main {
     div:hover {
         opacity: 0.8;
         border: 2px solid var(--button-main-color);
+        cursor: url(../images/pointer\ custom-03.svg), auto;
+
     }
 }
 
@@ -165,6 +172,7 @@ main {
     /* padding: 2rem; */
     padding: 1rem;
     gap: 10px 10px;
+    
 
         div {
             padding: 0.5rem;
@@ -173,6 +181,11 @@ main {
             border: 2px solid var(--button-color);
             text-align: center;
         }
+}
+
+.combinaisontofind:hover{
+    cursor: url(../images/pointer\ custom-03.svg), auto;
+
 }
 
 .combinaison-mystère {

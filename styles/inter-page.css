@@ -39,6 +39,10 @@ header {
             margin: auto;
         }
 
+        img {
+            cursor: url(../images/pointer\ custom-03.svg), auto;
+        }
+
         li {
             color: white;
             font-size: 25px;
@@ -54,6 +58,7 @@ header {
             a {
                 text-decoration: none;
                 color: white;
+                cursor: url(../images/pointer\ custom-03.svg), auto;
             }
         }
         
@@ -116,7 +121,7 @@ header {
         height: 50px;
         border: 3px solid var(--button-main-color);
         background-color: var(--button-main-color);
-        cursor: pointer;
+        cursor: url(../images/pointer\ custom-03.svg), auto;        
         color: black;
         font-size: 20px;
         font-weight: 700;

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="tracé" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 189.58 197.48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #7cf6fe;
+        stroke-miterlimit: 10;
+        stroke-width: 18.56px;
+      }
+    </style>
+  </defs>
+  <polygon class="cls-1" points="60.06 64.07 137.41 107.38 130.11 113.49 108.72 135.15 103.38 141.42 60.06 64.07"/>
+</svg>
