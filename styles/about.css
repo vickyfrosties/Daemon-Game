@@ -73,7 +73,7 @@ header {
 main {
     width: 100vw;
     height: 80%;
-     animation: fadeInAnimation ease 2.5s;
+    animation: fadeInAnimation ease 2.5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
@@ -99,7 +99,7 @@ main {
 
 .panel {
     padding: 1rem;
-    width: 40%;
+    width: 30%;
     height: 60%;
     background-color: #2a2d3e25;
     border: 3px solid #C2E524;
@@ -128,17 +128,17 @@ main {
     margin: auto;
     display: flex;
     width: 80%;
+    height: 70%;
 }
 
 
 .explication-1 {
-    display: none;
     margin-top: 3rem;
     margin-right: 3rem;
     justify-content: end;
-    padding: 1rem;
-    width: 27%;
-    height: 45%;
+    padding: 1.5rem;
+    width: 20%;
+    height: 60%;
     text-align: justify;
     color: white;
     border: 2px solid var(--button-main-color);
@@ -154,9 +154,9 @@ main {
 }
 
 .second-section {
-    display: block;
     margin: auto;
     width: 80%;
+    height: auto;
     margin-top: 4rem;
     margin-bottom: 4rem;
 }
@@ -166,7 +166,7 @@ main {
     width: 20%;
     border: 2px solid #717F39;
     color: white;
-    height: 10%;
+    height: 12%;
     justify-content: center;
     align-items: center;
     /* padding: 2rem; */
@@ -197,6 +197,7 @@ main {
 
 
 footer {
+    height: 10%;
     /* border: 2px solid var(--button-color); */
     background-color: #fcee0a;
 }
