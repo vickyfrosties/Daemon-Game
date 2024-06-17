@@ -99,8 +99,8 @@ main {
 
 .panel {
     padding: 1rem;
-    width: 30%;
-    height: 60%;
+    width: 40%;
+    height: 100%;
     background-color: #2a2d3e25;
     border: 3px solid #C2E524;
     color: white;
